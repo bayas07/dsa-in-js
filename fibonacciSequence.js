@@ -28,6 +28,8 @@ function fibonacci(num) {
 //   }
 // }
 
+// Big-O - O(n)
+
 console.log(fibonacci(1));
 console.log(fibonacci(2));
 console.log(fibonacci(5));
