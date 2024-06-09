@@ -32,5 +32,5 @@ function fibonacci(num) {
 
 console.log(fibonacci(1));
 console.log(fibonacci(2));
-console.log(fibonacci(5));
+console.log(fibonacci(5)); // [ 0, 1, 1, 2, 3 ]
 console.log(fibonacci(7));
