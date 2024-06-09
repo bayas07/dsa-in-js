@@ -18,4 +18,4 @@ function factorial(num) {
 
 console.log(factorial(0));
 console.log(factorial(1));
-console.log(factorial(5));
+console.log(factorial(5)); // 1 x 2 x 3 x 4 x 5
