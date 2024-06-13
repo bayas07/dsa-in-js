@@ -41,4 +41,4 @@ console.log(binarySearch(testArr, 2)); // 2
 console.log(binarySearch(testArr, 45)); // 8
 console.log(binarySearch(testArr, 10000)); // -1
 
-// BIG-0 // O(logn)
+// BIG-O - O(logn)
