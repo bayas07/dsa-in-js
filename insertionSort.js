@@ -11,6 +11,20 @@ function insertionSort(arr) {
   return arr;
 }
 
+// function insertionSort(arr) {
+//   for (let i = 1; i < arr.length; i++) {
+//     let key = arr[i];
+//     let j = i - 1;
+//     for (j; j >= 0, arr[j] > key; j--) {
+//       if (key < arr[j]) {
+//         arr[j + 1] = arr[j];
+//       }
+//     }
+//     arr[j + 1] = key;
+//   }
+//   return arr;
+// }
+
 console.log(insertionSort([1, 5, 3, 6, 2])); // [ 1, 2, 3, 5, 6 ]
 console.log(insertionSort([-4, 5, 7, -6, -2, 1])); // [ -6, -4, -2, 1, 5, 7 ]
 
